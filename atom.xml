@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>石头鱼的博客</title>
+  <subtitle>欢迎</subtitle>
+  <link href="https://www.sty20030818.space/" rel="alternate" type="text/html"/>
+  <link href="https://www.sty20030818.space/atom.xml" rel="self" type="application/atom+xml"/>
+  <id>https://www.sty20030818.space/</id>
+  <updated>2026-01-08T05:35:29.498Z</updated>
+  <language>zh_CN</language>
+  <entry>
+    <title>我的第一篇文章</title>
+    <link href="https://www.sty20030818.space/my-first-blog/" rel="alternate" type="text/html"/>
+    <id>https://www.sty20030818.space/my-first-blog/</id>
+    <published>2026-01-08T00:00:00.000Z</published>
+    <updated>2026-01-08T00:00:00.000Z</updated>
+    <summary>第一篇文章</summary>
+    <content type="html"><![CDATA[<h1>我的第一篇文章</h1>
+<h2>首先 一些测试</h2>
+<pre><code>#include &lt;stdio.h&gt;
+int main() {
+    printf("Hello, World!\n");
+    return 0;
+}
+</code></pre>
+<pre><code>print("Hello, World!")
+</code></pre>
+<h2>图</h2>
+<p><img src="./images/1.png" alt="一张图" /></p>
+<h2>引言</h2>
+<blockquote>
+<p>一级引言段落1
+一级引言段落2</p>
+<blockquote>
+<p>嵌套二级引言</p>
+</blockquote>
+<p>回到一级引言，支持嵌套列表：</p>
+<ol>
+<li>引言内有序列表</li>
+<li>列表项2</li>
+</ol>
+<blockquote>
+<h2>引言内标题</h2>
+<p><code>引言内代码</code></p>
+</blockquote>
+</blockquote>
+<h2>无序列表</h2>
+<ul>
+<li>无序列表项1</li>
+<li>无序列表项2
+<ul>
+<li>嵌套子项（缩进 3 空格或 1 tab）</li>
+<li>嵌套子项</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>星号标记项（不推荐混合使用）</li>
+</ul>
+<ul>
+<li>加号标记项（不推荐混合使用）</li>
+</ul>
+<h2>有序列表</h2>
+<ol>
+<li>有序列表项1</li>
+<li>有序列表项2</li>
+<li>嵌套子项（缩进）</li>
+<li>嵌套子项</li>
+<li>有序列表项3</li>
+</ol>
+<h2>行内元素</h2>
+<p><a href="https://example.com">链接文本</a>
+<a href="/about/">相对路径链接</a>
+<a href="https://example.com">无标题链接</a></p>
+<p>&lt;!-- // 正文引用 --&gt;
+这是[示例链接][id1]，这是[重复引用链接][id1]</p>
+<p>&lt;!-- // 链接定义（可放文末） --&gt;
+[id1]: https://example.com "可选标题"
+[google]: https://google.com/ "Google"</p>
+<p>&lt;!-- // 简化写法（链接文本=标识ID） --&gt;
+[Google][]
+[google]: https://google.com/</p>
+]]></content>
+    <author>
+      <name>我叫石头鱼</name>
+    </author>
+    <category term="Essays"></category>
+  </entry>
+</feed>

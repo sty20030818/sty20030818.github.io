@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>石头鱼的博客</title><description>欢迎</description><link>https://www.sty20030818.space/</link><language>zh_CN</language><item><title>我的第一篇文章</title><link>https://www.sty20030818.space/my-first-blog/</link><guid isPermaLink="true">https://www.sty20030818.space/my-first-blog/</guid><description>第一篇文章</description><pubDate>Thu, 08 Jan 2026 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;我的第一篇文章&lt;/h1&gt;
+&lt;h2&gt;首先 一些测试&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;#include &amp;lt;stdio.h&amp;gt;
+int main() {
+    printf(&quot;Hello, World!\n&quot;);
+    return 0;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;print(&quot;Hello, World!&quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;图&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;./images/1.png&quot; alt=&quot;一张图&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;引言&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;一级引言段落1
+一级引言段落2&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;嵌套二级引言&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;回到一级引言，支持嵌套列表：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;引言内有序列表&lt;/li&gt;
+&lt;li&gt;列表项2&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;h2&gt;引言内标题&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;引言内代码&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;无序列表&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;无序列表项1&lt;/li&gt;
+&lt;li&gt;无序列表项2
+&lt;ul&gt;
+&lt;li&gt;嵌套子项（缩进 3 空格或 1 tab）&lt;/li&gt;
+&lt;li&gt;嵌套子项&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;星号标记项（不推荐混合使用）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;加号标记项（不推荐混合使用）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;有序列表&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;有序列表项1&lt;/li&gt;
+&lt;li&gt;有序列表项2&lt;/li&gt;
+&lt;li&gt;嵌套子项（缩进）&lt;/li&gt;
+&lt;li&gt;嵌套子项&lt;/li&gt;
+&lt;li&gt;有序列表项3&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;行内元素&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://example.com&quot;&gt;链接文本&lt;/a&gt;
+&lt;a href=&quot;/about/&quot;&gt;相对路径链接&lt;/a&gt;
+&lt;a href=&quot;https://example.com&quot;&gt;无标题链接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;!-- // 正文引用 --&amp;gt;
+这是[示例链接][id1]，这是[重复引用链接][id1]&lt;/p&gt;
+&lt;p&gt;&amp;lt;!-- // 链接定义（可放文末） --&amp;gt;
+[id1]: https://example.com &quot;可选标题&quot;
+[google]: https://google.com/ &quot;Google&quot;&lt;/p&gt;
+&lt;p&gt;&amp;lt;!-- // 简化写法（链接文本=标识ID） --&amp;gt;
+[Google][]
+[google]: https://google.com/&lt;/p&gt;
+</content:encoded></item></channel></rss>
