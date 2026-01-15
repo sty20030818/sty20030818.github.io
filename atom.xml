@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>石头鱼的博客</title>
+  <title>这是 sty 啦</title>
   <subtitle>欢迎</subtitle>
   <link href="https://www.sty20030818.space/" rel="alternate" type="text/html"/>
   <link href="https://www.sty20030818.space/atom.xml" rel="self" type="application/atom+xml"/>
   <id>https://www.sty20030818.space/</id>
-  <updated>2026-01-08T05:35:29.498Z</updated>
+  <updated>2026-01-15T07:07:55.276Z</updated>
   <language>zh_CN</language>
   <entry>
     <title>我的第一篇文章</title>
@@ -16,6 +16,7 @@
     <summary>第一篇文章</summary>
     <content type="html"><![CDATA[<h1>我的第一篇文章</h1>
 <h2>首先 一些测试</h2>
+<h3>代码</h3>
 <pre><code>#include &lt;stdio.h&gt;
 int main() {
     printf("Hello, World!\n");
@@ -24,9 +25,9 @@ int main() {
 </code></pre>
 <pre><code>print("Hello, World!")
 </code></pre>
-<h2>图</h2>
+<h3>图</h3>
 <p><img src="./images/1.png" alt="一张图" /></p>
-<h2>引言</h2>
+<h3>引言</h3>
 <blockquote>
 <p>一级引言段落1
 一级引言段落2</p>
@@ -43,7 +44,7 @@ int main() {
 <p><code>引言内代码</code></p>
 </blockquote>
 </blockquote>
-<h2>无序列表</h2>
+<h3>无序列表</h3>
 <ul>
 <li>无序列表项1</li>
 <li>无序列表项2
@@ -53,32 +54,27 @@ int main() {
 </ul>
 </li>
 </ul>
-<ul>
-<li>星号标记项（不推荐混合使用）</li>
-</ul>
-<ul>
-<li>加号标记项（不推荐混合使用）</li>
-</ul>
-<h2>有序列表</h2>
-<ol>
-<li>有序列表项1</li>
-<li>有序列表项2</li>
-<li>嵌套子项（缩进）</li>
-<li>嵌套子项</li>
-<li>有序列表项3</li>
-</ol>
-<h2>行内元素</h2>
-<p><a href="https://example.com">链接文本</a>
-<a href="/about/">相对路径链接</a>
-<a href="https://example.com">无标题链接</a></p>
-<p>&lt;!-- // 正文引用 --&gt;
-这是[示例链接][id1]，这是[重复引用链接][id1]</p>
-<p>&lt;!-- // 链接定义（可放文末） --&gt;
-[id1]: https://example.com "可选标题"
-[google]: https://google.com/ "Google"</p>
-<p>&lt;!-- // 简化写法（链接文本=标识ID） --&gt;
-[Google][]
-[google]: https://google.com/</p>
+<h2>特殊用法</h2>
+<h3>Github</h3>
+<p>::github{repo="sty20030818/StoneHub"}</p>
+<h3>提示框</h3>
+<p>:::note
+这是一个note提示框
+:::</p>
+<p>:::tip
+这是一个tip提示框
+:::</p>
+<p>:::important
+这是一个important提示框
+:::</p>
+<p>:::warning
+这是一个warning提示框
+:::</p>
+<p>:::caution
+这是一个caution提示框
+:::</p>
+<h3>折叠剧透</h3>
+<p>这是普通文本,剧透内容 :spoiler[<strong>剧透内容</strong>]</p>
 ]]></content>
     <author>
       <name>我叫石头鱼</name>
